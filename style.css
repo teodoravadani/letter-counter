@@ -16,9 +16,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 100vh;
-    max-width: 500px;
-    transition: background .5s ease-in-out;
 }
 
 h1 {
@@ -34,7 +31,7 @@ input {
     border-width: 0px;
 }
 
-#counter {
+.counter {
     color: white;
     font-size: 25px;
     margin: 25px auto;
